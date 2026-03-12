@@ -9,14 +9,14 @@ To implement Principal Component Analysis (PCA) to reduce the dimensionality of 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import the required libraries such as pandas, sklearn, matplotlib, and seaborn.
+2. Load the dataset (HeightsWeights.csv) using pandas.
+3. Select the features (Height and Weight) and standardize the data using StandardScaler.
+4. Apply Principal Component Analysis (PCA) to reduce the data into principal components.
+5. Display the explained variance and visualize the result using a scatter plot.
 
 ## Program:
 ```
-
 # Import necessary libraries
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
